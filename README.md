@@ -1,24 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+格納されているソースコードのWebアプリ起動手順を以下に記載致します。
 
-Things you may want to cover:
+ターミナルを開いてカレントワーキングディレクトリを、ディレクトリをクローンしたい場所に変更し、以下のコマンドでgit cloneを実行
+$ git clone https://github.com/yuta-yamaura/rails-docker.git
 
-* Ruby version
+docker-composeでコンテナを起動
+$ docker-compose up
 
-* System dependencies
+ブラウザのURLにhttp://localhost:3000を入力し押下
 
-* Configuration
+Webアプリが起動されます。
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+以上
